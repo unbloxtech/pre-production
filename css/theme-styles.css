@@ -2901,13 +2901,13 @@ textarea {
 @media (max-width: 1300px) {
   .site-logo img {
     margin-right: 8px;
-    max-width: 40px; }
+    max-width: 200px; }
   .site-logo .woox-icon {
     width: 60px; } }
 
 @media (max-width: 768px) {
   .site-logo img {
-    max-width: 40px; } }
+    max-width: 200px; } }
 
 @media (max-width: 460px) {
   .header {
