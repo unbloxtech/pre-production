@@ -302,23 +302,23 @@
     .btn--transparent.btn--secondary .woox-icon {
       fill: #fff; }
     .btn--transparent.btn--secondary:hover {
-      color: #ffba00;
-      border-color: #ffba00; }
+      color: #ff6600;
+      border-color: #ff6600; }
       .btn--transparent.btn--secondary:hover .woox-icon {
-        fill: #ffba00; }
+        fill: #ff6600; }
     .btn--transparent.btn--secondary:active {
-      background-color: #ffba00;
+      background-color: #ff6600;
       color: #fff;
-      border-color: #ffba00; }
+      border-color: #ff6600; }
       .btn--transparent.btn--secondary:active .woox-icon {
         fill: #fff; }
   .btn--transparent.btn--primary {
-    color: #ffba00; }
+    color: #ff6600; }
     .btn--transparent.btn--primary .woox-icon {
-      fill: #ffba00; }
+      fill: #ff6600; }
     .btn--transparent.btn--primary:hover {
       color: #fff;
-      background-color: #ffba00; }
+      background-color: #ff6600; }
       .btn--transparent.btn--primary:hover .woox-icon {
         fill: #fff; }
     .btn--transparent.btn--primary:active {
@@ -5946,7 +5946,7 @@ body.body-overlay-active:before {
   display: block; }
 
 a.post__title:hover {
-  color: #ffba00; }
+  color: #ff6600; }
 
 .post__date {
   position: relative; }
