@@ -5892,7 +5892,7 @@ body.body-overlay-active:before {
       bottom: 0;
       left: 0; }
   .post:hover .post__date:after {
-    background-color: #ffba00; }
+    background-color: #3d4451; }
   .post.sticky-post .post__content {
     width: 50%; }
   .post.sticky-post .post__date {
@@ -5952,7 +5952,7 @@ a.post__title:hover {
   position: relative; }
   .post__date .number {
     font-size: 48px;
-    color: #ffba00;
+    color: #ff6600;
     display: block;
     line-height: 1.1; }
   .post__date time {
