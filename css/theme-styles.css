@@ -5354,3 +5354,9 @@ img.mfp-img {
     opacity: 1; } }
 
 /*# sourceMappingURL=maps/theme-styles.css.map */
+
+@media only screen and (max-device-width:768px) {
+  .display-none {
+      display:none
+  }
+}
