@@ -220,10 +220,10 @@ var CRUMINA = {};
 				text_size: 0.16,
 
 				time: {
-					Days: {color: '#ffba00'},
-					Hours: {color: '#ffba00'},
-					Minutes: {color: '#ffba00'},
-					Seconds: {color: '#ffba00'}
+					Days: {color: '#ff6600'},
+					Hours: {color: '#ff6600'},
+					Minutes: {color: '#ff6600'},
+					Seconds: {color: '#ff6600'}
 				}
 			});
 
@@ -763,7 +763,7 @@ var CRUMINA = {};
 				},
 				{
 					name: 'WOOX',
-					color: '#ffba00'
+					color: '#ff6600'
 				}
 			];
 
