@@ -1242,3 +1242,4 @@ var CRUMINA = {};
 	});
 
 })(jQuery);
+
