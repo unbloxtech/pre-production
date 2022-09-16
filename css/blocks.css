@@ -503,8 +503,8 @@
   line-height: 60px;
   position: relative; }
   .btn--round:hover .woox-icon {
-    fill: #ff6600;
-    color: #ff6600; }
+    fill: #ffff;
+    color: #ffff; }
   .btn--round .woox-icon {
     height: 18px;
     width: 18px;
@@ -576,12 +576,12 @@
     background-color: #1c1f24; }
 
 .btn--share {
-  border-color: #a1abbd; }
+  border-color: #ffff; }
   .btn--share:active {
     background-color: transparent;
-    border-color: #3d4451; }
+    border-color: #ffff; }
   .btn--share .woox-icon {
-    fill: #a1abbd; }
+    fill: #ffff; }
   .btn--share .socials {
     padding-left: 65px;
     padding-right: 10px;
@@ -639,7 +639,7 @@
     top: -4px;
     -webkit-transition: max-width .8s ease, opacity .3s ease;
     transition: max-width .8s ease, opacity .3s ease;
-    border: 4px solid #a1abbd;
+    border: 4px solid #ffff;
     border-radius: 33px;
     opacity: 0;
     visibility: hidden; }
@@ -953,8 +953,8 @@
     height: 22px;
     width: 22px;
     font-size: 22px;
-    fill: #3d434f;
-    color: #3d434f;
+    fill: #ffff;
+    color: #ffff;
     display: block;
     vertical-align: middle;
     position: relative;
