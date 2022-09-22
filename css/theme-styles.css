@@ -5362,4 +5362,8 @@ img.mfp-img {
   .margin-bottom-mobile{
     margin-bottom: 20px;
   }
+  .mobile-scroll
+  {
+    overflow-x: scroll
+  }
 }
