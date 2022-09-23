@@ -15,6 +15,7 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i,900," rel="stylesheet">
 	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
 
 
 	<!--Styles for RTL-->
@@ -152,12 +153,12 @@
 
 	<div class="main-content-wrapper">
 
-		<section data-settings="particles-1" class="main-section bg-1 medium-padding120 responsive-align-center">
-			<div class="container">
+		<section data-settings="particles-1" class="main-section bg-1 responsive-align-center">
+			<!-- <div class="container">
 				<div class="row">
-					<!-- <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+					 <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
 					<img class="responsive-width-50" src="img/main.png" alt="image">
-				</div> -->
+				</div> 
 					<div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
 						<header class="crumina-module crumina-heading heading--h1 ">
 							<h1 class="heading-title f-size-90 weight-normal no-margin">Identity
@@ -168,7 +169,59 @@
 							class="btn btn--large btn--transparent btn--secondary">Listen podcasts</a>
 					</div>
 				</div>
-			</div>
+			</div> -->
+			<div class="swiper mySwiper">
+				<div class="swiper-wrapper">
+				  <div class="swiper-slide">
+					<!-- <div class="container">
+						<div class="row">
+							<div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
+								<header class="crumina-module crumina-heading heading--h1 ">
+									<h1 class="heading-title f-size-90 weight-normal no-margin">Identity
+										<br><span class="weight-bold">Blockchain</span></h1>
+									<h2 class="c-primary">Crypto-Biometrics</h2>
+								</header>
+								<a href="podcasts.html" target="_blank"
+									class="btn btn--large btn--transparent btn--secondary">Listen podcasts</a>
+							</div>
+						</div>
+					</div> -->
+					<div class="full-screen">
+						<video src="img/video_preview_h264.mp4" autoplay muted loop></video>
+						<div class="content">
+						  <h1>Carbon Credits</h1>
+						  <hr class="divider">
+						  <h3 style="text-align:center">Powered by <img class="mobile-image-size" width="200" src="img/archethic.png" /></h3>
+						  <!-- <h1 class="aj_bg">VIDEO BACKGROUND</h1> -->
+						</div>
+					</div>
+				  </div>
+				  <div class="swiper-slide">
+					<div class="full-screen">
+						<video src="img/video_preview_h264 (1).mp4" autoplay muted loop></video>
+						<div class="content">
+						  <h1 style="text-align: center">Identity</h1>
+						  <hr class="divider">
+						  <h3 style="text-align:center">Powered by <img class="mobile-image-size" width="200" src="img/archethic.png" /></h3>
+						  <!-- <h1 class="aj_bg">VIDEO BACKGROUND</h1> -->
+						</div>
+					</div>
+				  </div>
+				  <div class="swiper-slide">
+					<div class="full-screen">
+						<video src="img/video_preview_h264 (2).mp4" autoplay muted loop></video>
+						<div class="content">
+						  <h1>Creator Economy</h1>
+						  <hr class="divider">
+						  <h3 style="text-align:center">Powered by <img class="mobile-image-size" width="200" src="img/archethic.png" /></h3>
+						  <!-- <h1 class="aj_bg">VIDEO BACKGROUND</h1> -->
+						</div>
+					</div>
+				  </div>
+				</div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+			  </div>
 		</section>
 
 		<!-- <section>
@@ -1855,6 +1908,18 @@
 	<!-- SVG icons loader -->
 	<script src="js/svg-loader.js"></script>
 	<!-- /SVG icons loader -->
+	<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        rewind: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
 
 </body>
 
