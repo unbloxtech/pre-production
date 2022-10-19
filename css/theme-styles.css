@@ -5357,7 +5357,7 @@ img.mfp-img {
 
 @media only screen and (max-device-width:768px) {
   .display-none {
-      display:none
+      display:none !important
   }
   .margin-bottom-mobile{
     margin-bottom: 20px;
@@ -5391,3 +5391,9 @@ img.mfp-img {
   z-index: -1;
   
 }
+
+.text-coloured {
+  color: transparent;
+  background: -webkit-linear-gradient(135deg, #fff 50%, #ff6600 100%);
+  background: linear-gradient(315deg, #fff 50%, #ff6600 100%);
+  -webkit-background-clip: text; } 

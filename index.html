@@ -187,40 +187,46 @@
 						</div>
 					</div> -->
 					<div class="full-screen">
-						<video src="img/video_preview_h264.mp4" autoplay muted loop></video>
+						<video src="img/carbon-credits.mp4" autoplay muted loop></video>
 						<div class="content">
-						  <h1>Carbon Credits</h1>
+						  <h2 style="text-align: center" class="heading--half-colored">Carbon Credits</h2>
 						  <hr class="divider">
-						  <h3 style="text-align:center">Powered by <a href="https://archethic.net" target="_blank"><img class="mobile-image-size" width="200" src="img/archethic.png" /></a></h3>
+						  <!-- <h6 style="text-align: left"></h6> -->
+						  <div class="heading-text" style="text-align:center;color: #ffff" >Initiatives by unblox to save planet earth.</div>
+						  <h4 style="text-align:center" class="text-coloured">Powered by <a href="https://archethic.net" target="_blank"><img class="mobile-image-size" width="150" src="img/archethic.png" /></a></h4>
 						  <!-- <h1 class="aj_bg">VIDEO BACKGROUND</h1> -->
 						</div>
 					</div>
 				  </div>
 				  <div class="swiper-slide">
 					<div class="full-screen">
-						<video src="img/video_preview_h264 (1).mp4" autoplay muted loop></video>
+						<video src="img/identity.mp4" autoplay muted loop></video>
 						<div class="content">
-						  <h1 style="text-align: center">Identity</h1>
-						  <hr class="divider">
-						  <h3 style="text-align:center">Powered by <a href="https://archethic.net" target="_blank"><img class="mobile-image-size" width="200" src="img/archethic.png" /></a></h3>
-						  <!-- <h1 class="aj_bg">VIDEO BACKGROUND</h1> -->
-						</div>
+							<h2 style="text-align: center" class="heading--half-colored">Digital Identity</h2>
+							<hr class="divider">
+							<!-- <h6 style="text-align: left"></h6> -->
+							<div class="heading-text" style="text-align:center;color: #ffff" >Self sovereign identity by unblox.</div>
+							<h4 style="text-align:center" class="text-coloured">Powered by <a href="https://archethic.net" target="_blank"><img class="mobile-image-size" width="150" src="img/archethic.png" /></a></h4>
+							<!-- <h1 class="aj_bg">VIDEO BACKGROUND</h1> -->
+						  </div>
 					</div>
 				  </div>
 				  <div class="swiper-slide">
 					<div class="full-screen">
-						<video src="img/video_preview_h264 (2).mp4" autoplay muted loop></video>
+						<video src="img/economy.mp4" autoplay muted loop></video>
 						<div class="content">
-						  <h1>Creator Economy</h1>
-						  <hr class="divider">
-						  <h3 style="text-align:center">Powered by <a href="https://archethic.net" target="_blank"><img class="mobile-image-size" width="200" src="img/archethic.png" /></a></h3>
-						  <!-- <h1 class="aj_bg">VIDEO BACKGROUND</h1> -->
-						</div>
+							<h2 style="text-align: center" class="heading--half-colored">Creator Economy</h2>
+							<hr class="divider">
+							<!-- <h6 style="text-align: left"></h6> -->
+							<div class="heading-text" style="text-align:center;color: #ffff" >The blockchain for web3 creators.</div>
+							<h4 style="text-align:center" class="text-coloured">Powered by <a href="https://archethic.net" target="_blank"><img class="mobile-image-size" width="150" src="img/archethic.png" /></a></h4>
+							<!-- <h1 class="aj_bg">VIDEO BACKGROUND</h1> -->
+						  </div>
 					</div>
 				  </div>
 				</div>
-				<div class="swiper-button-next" style="color: #ff6600"></div>
-				<div class="swiper-button-prev" style="color: #ff6600"></div>
+				<div class="swiper-button-next display-none" style="color: #ff6600"></div>
+				<div class="swiper-button-prev display-none" style="color: #ff6600"></div>
 			  </div>
 		</section>
 
@@ -1916,6 +1922,10 @@
     <script>
       var swiper = new Swiper(".mySwiper", {
         rewind: true,
+		autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
