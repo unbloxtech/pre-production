@@ -5369,6 +5369,9 @@ img.mfp-img {
   .mobile-image-size{
     width: 120px !important
   }
+  .subtitle-font-mobile{
+    font-size:medium !important;
+  }
 }
 
 .full-screen{
