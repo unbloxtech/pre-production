@@ -5367,10 +5367,16 @@ img.mfp-img {
     overflow-x: scroll
   }
   .mobile-image-size{
-    width: 120px !important
+    width: 115px !important
   }
   .subtitle-font-mobile{
     font-size:medium !important;
+  }
+}
+
+@media only screen and (min-device-width:768px) {
+  .display-none-desktop {
+      display:none !important
   }
 }
 
