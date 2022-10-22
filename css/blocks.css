@@ -1857,7 +1857,7 @@ table > tfoot > tr > th,
 table > thead > tr > td,
 table > tbody > tr > td,
 table > tfoot > tr > td {
-  padding: 28px;
+  padding: 20px;
   line-height: 1.42857143;
   vertical-align: middle;
   border-top: 1px solid #21232b;
@@ -1865,7 +1865,7 @@ table > tfoot > tr > td {
 
 table > tfoot > tr > th,
 table > tfoot > tr > td {
-  padding: 60px 28px; }
+  padding: 30px 28px; }
 
 table > tbody > tr > td:last-child {
   border-right: none; }
