@@ -5386,12 +5386,13 @@ img.mfp-img {
   overflow: hidden;
   display: flex;
   align-items: center;
-  justify-content: center;background: linear-gradient(0deg, rgba(68,68,68,0.5270483193277311) 0%, rgba(0,0,0,0.4962359943977591) 100%);
+  justify-content: center;
+  /* background: linear-gradient(0deg, rgba(68,68,68,0.5270483193277311) 0%, rgba(0,0,0,0.4962359943977591) 100%); */
   background: rgba(0, 0, 0, 0.7);
 }
 
 .full-screen video{
-  position: absolute;
+  /* position: absolute; */
   left: 0;
   top: 0;
   width: 100%;
