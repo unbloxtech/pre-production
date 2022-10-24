@@ -5372,6 +5372,9 @@ img.mfp-img {
   .subtitle-font-mobile{
     font-size:medium !important;
   }
+  .hr-mobile-width{
+    max-width: 300px;
+  }
 }
 
 @media only screen and (min-device-width:768px) {
