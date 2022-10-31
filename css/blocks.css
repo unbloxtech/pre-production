@@ -39,9 +39,10 @@
     line-height: 1.6;
     margin-bottom: 10px; }
   .crumina-heading.heading--h3 .heading-text {
-    font-size: 1.125em;
-    line-height: 1.6;
-    margin-top: 5px; }
+    /* font-size: 0em; */
+    /* line-height: 1.6;
+    margin-top: 5px;  */
+  }
   .crumina-heading.heading--h3 .heading-sup-title {
     font-size: 1.125em;
     line-height: 1.6;
