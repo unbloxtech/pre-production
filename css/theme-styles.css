@@ -2913,7 +2913,7 @@ textarea {
   .header {
     padding: 15px 0; }
   .site-logo {
-    width: 100%;
+    /* width: 100%; */
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -5372,6 +5372,9 @@ img.mfp-img {
   .subtitle-font-mobile{
     font-size:medium !important;
   }
+  .subtheading-font-mobile{
+    font-size:larger !important;
+  }
   .hr-mobile-width{
     max-width: 300px;
   }
@@ -5394,7 +5397,7 @@ img.mfp-img {
   align-items: center;
   justify-content: center;
   /* background: linear-gradient(0deg, rgba(68,68,68,0.5270483193277311) 0%, rgba(0,0,0,0.4962359943977591) 100%); */
-  background: rgba(0, 0, 0, 0.7);
+  /* background: rgba(0, 0, 0, 0.7); */
 }
 
 .full-screen video{
