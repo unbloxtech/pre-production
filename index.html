@@ -183,8 +183,16 @@
 						<img class="responsive-width-50" src="img/main.png" alt="image">
 					</div> -->
 					<div class="full-screen">
-						<video class="display-none" src="img/Website pc transition.mp4" autoplay muted loop></video>
-						<video class="display-none-desktop" src="img/Low file size Phone version.mp4" autoplay muted loop></video>
+						<!-- <video class="display-none" src="img/Website pc transition.mp4" autoplay muted loop></video>
+						<video class="display-none-desktop" src="img/Low file size Phone version.mp4" autoplay muted loop></video> -->
+
+						<video class="display-none" preload="metadata" autoplay loop muted>
+						<source src="img/Website pc transition.mp4" type="video/mp4" defer>
+					    </video>
+
+						<video class="display-none-desktop" preload="metadata" autoplay loop muted>
+						<source src="img/Low file size Phone version.mp4" type="video/mp4" defer>
+						</video>
 						
 						<!-- <div class="content" style="position: absolute">
 							
