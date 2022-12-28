@@ -176,25 +176,25 @@
 
 
 
-		<section  class="main-section responsive-align-center">
+		<section class="main-section responsive-align-center">
 			<!-- <div class="container">
 				<div class="row"> -->
-					<!-- <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+			<!-- <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
 						<img class="responsive-width-50" src="img/main.png" alt="image">
 					</div> -->
-					<div class="full-screen">
-						<!-- <video class="display-none" src="img/Website pc transition.mp4" autoplay muted loop></video>
+			<div class="full-screen">
+				<!-- <video class="display-none" src="img/Website pc transition.mp4" autoplay muted loop></video>
 						<video class="display-none-desktop" src="img/Low file size Phone version.mp4" autoplay muted loop></video> -->
 
-						<video class="display-none" preload="metadata" autoplay loop muted playsinline>
-						<source src="img/Website pc transition.mp4" type="video/mp4">
-					    </video>
+				<video class="display-none" id="BgVideo" preload="metadata" autoplay loop muted playsinline>
+					<source src="img/Website pc transition.mp4" type="video/mp4">
+				</video>
 
-						<video class="display-none-desktop" preload="metadata" autoplay loop muted playsinline>
-						<source src="img/Phone version all transitions.webm" type="video/webm">
-						</video>
-						
-						<!-- <div class="content" style="position: absolute">
+				<video class="display-none-desktop" id="BgVideo" preload="metadata" autoplay loop muted playsinline>
+					<source src="img/Phone version all transitions.webm" type="video/webm">
+				</video>
+
+				<!-- <div class="content" style="position: absolute">
 							
 							<div class="container">
 								<div class="row">
@@ -227,8 +227,8 @@
 							</div>
 						
 						</div> -->
-					</div>
-					<!-- <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
+			</div>
+			<!-- <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
 						<header class="crumina-module crumina-heading heading--h1 ">
 							<h1 class="heading-title f-size-90 weight-normal no-margin">Carbon Credits
 								<br><span class="weight-bold">Digital Identity</span></h1>
@@ -253,7 +253,7 @@
 						</a>
 					</div> -->
 
-				<!-- </div>
+			<!-- </div>
 			</div> -->
 			<!-- <div class="swiper mySwiper">
 				<div class="swiper-wrapper">
@@ -2284,6 +2284,12 @@
 				prevEl: ".swiper-button-prev",
 			},
 		});
+	</script>
+
+	<script>
+		var bgvideo = document.getElementById("BgVideo");
+		bgvideo.muted = true;
+		bgvideo.play();
 	</script>
 
 </body>
