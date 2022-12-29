@@ -1559,7 +1559,8 @@ body.crumina-grid .kc_col-of-5 {
   background-image: url("../img/bg-2.png");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: 50% 50%; }
+  background-position: 50% 50%;
+}
 
 .bg-2 {
   background-image: url("../img/icon1.png");
@@ -5384,6 +5385,11 @@ img.mfp-img {
   }
   .title-mobile{
     font-size:27px !important;
+  }
+  .bg-mobile{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 
