@@ -2156,7 +2156,7 @@ abbr {
 /*------------- Responsive Mode --------------*/
 @media (max-width: 1200px) {
   .responsive-width-50 {
-    max-width: 50%; }
+    max-width: 85%; }
   .responsive-align-center {
     text-align: center; }
     .responsive-align-center .btn-market-wrap {
