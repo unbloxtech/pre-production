@@ -5384,7 +5384,7 @@ img.mfp-img {
     max-width: 300px;
   }
   .title-mobile{
-    font-size:27px !important;
+    font-size:15px !important;
   }
   .bg-mobile{
     background-position: center center;
@@ -5393,6 +5393,9 @@ img.mfp-img {
   }
   .gap30-mobile{
     margin-top: 30px !important;
+  }
+  .gap80-mobile{
+    margin-top: 80px !important;
   }
 }
 
