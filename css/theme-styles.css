@@ -5391,6 +5391,9 @@ img.mfp-img {
     background-size: cover;
     background-repeat: no-repeat;
   }
+  .gap30-mobile{
+    margin-top: 30px !important;
+  }
 }
 
 @media only screen and (min-device-width:768px) {
